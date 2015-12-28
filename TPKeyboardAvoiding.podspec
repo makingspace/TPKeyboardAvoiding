@@ -15,4 +15,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'TPKeyboardAvoiding/*.{h,m}'
   s.requires_arc = false
+  s.watchos.deployment_target = '2.0'
+
 end
